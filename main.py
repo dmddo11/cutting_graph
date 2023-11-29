@@ -10,7 +10,7 @@ with open(file_path, 'r') as file:
 data_list = [line.strip() for line in lines]
 
 
-csv_file = pd.read_csv('R-본.csv')
+csv_file = pd.read_csv('CSV-example.csv')
 
 # 데이터를 저장할 데이터프레임 생성
 result_df = pd.DataFrame({'200-LOAD': csv_file['200-LOAD']})
